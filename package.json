@@ -1,0 +1,27 @@
+{
+    "name": "calais",
+    "version": "0.0.1",
+    "description": "Semantically analyze text using the Calais web service.",
+    "tags" : ["semantic", "calais"],
+    "author" : "Mike Cantelon <mcantelon@gmail.com>",
+    "contributors" : [],
+    "dependencies" : {},
+    "main": "./lib/calais",
+    "directories" : {
+        "lib": "./lib"
+    },
+    "repository": {
+        "type": "git",
+        "url" : "http://github.com/mcantelon/node-calais"
+    },
+    "engines": {
+      "node": ">= 0.3.0"
+    },
+    "bugs" : {
+        "web" : "http://github.com/mcantelon/node-calais/issues",
+    },
+    "licenses" : [{
+        "type" : "MIT",
+        "url" : "http://github.com/mcantelon/node-calais/LICENSE"
+    }]
+}
