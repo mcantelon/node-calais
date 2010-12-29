@@ -1,0 +1,14 @@
+node-calais
+-----------
+
+node-calais allows semantic analysis of text using the Calais web service.
+
+Install using npm:
+# npm install calais
+
+Run:
+# node example.js
+
+Tested with node.js v0.3.0
+
+(c) 2010 Mike Cantelon, MIT license
