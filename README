@@ -6,7 +6,15 @@ node-calais allows semantic analysis of text using the Calais web service.
 Install using npm:
 # npm install calais
 
-Run:
+Usage:
+
+  var calais = new Calais('<YOUR API KEY>')
+  calais.set('content', 'The Federal Reserve is the enemy of Ron Paul.')
+  calais.fetch(function(result) {
+    // do something with result
+  })
+
+Example:
 # node example.js
 
 Tested with node.js v0.3.0
