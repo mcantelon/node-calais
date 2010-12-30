@@ -1,7 +1,0 @@
-To-do:
--try changing host so result is undefined
--have it so you pass in options and each option has a default
--have a raw mode for getting raw request
--add support for raw mode
--automated test
--upload to npm
