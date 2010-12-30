@@ -1,6 +1,6 @@
 {
     "name": "calais",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Semantically analyze text using the Calais web service.",
     "tags" : ["semantic", "calais"],
     "author" : "Mike Cantelon <mcantelon@gmail.com>",
@@ -22,6 +22,6 @@
     },
     "licenses" : [{
         "type" : "MIT",
-        "url" : "http://github.com/mcantelon/node-calais/LICENSE"
+        "url" : "http://github.com/mcantelon/node-calais/blob/master/LICENSE"
     }]
 }
