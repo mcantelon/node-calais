@@ -5,7 +5,7 @@ node-calais allows semantic analysis of text using the Calais web service.
 ## Install ##
 
 Install using npm:
-# npm install calais
+    $ npm install calais
 
 ## Usage ##
 
@@ -18,7 +18,7 @@ Install using npm:
 ## Example ##
 
 Run quick example:
-# node example.js
+    $ node example.js
 
 ## Options ##
 
@@ -33,7 +33,7 @@ Any Calais input parameter can be passed, as well as the 'cleanResult' parameter
 ** Test **
 
 Run tests:
-# expresso test/calais.test.js
+    $ expresso test/calais.test.js
 
 Tested with node.js v0.3.0
 
