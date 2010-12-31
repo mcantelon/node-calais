@@ -23,7 +23,7 @@ Run quick example:
 ## Options ##
 
 In addition to using the "set" method, a hash of option settings can be passed
-as the second argument when constructing. For example:
+as the second argument during intialization. For example:
 
     var calais = new Calais('<YOUR API KEY>', {'cleanResult': false})
 
@@ -31,8 +31,8 @@ By default, node-calais will return fetched results as a Javascript object.
 Alternatively, the Calais standard "outputFormat" input parameter can be set to
 standard output formats (see Calais documentation).
 
-Any standard Calais input parameter can be passed as an option, as well as the
-'cleanResult' parameter which will return a simplified Javascript object if
+Any standard Calais input parameter can be specified as an option, as well as
+the 'cleanResult' parameter which will return a simplified Javascript object if
 "outputFormat" hasn't been set to something other than the default ('object').
 
 ## Test ##
