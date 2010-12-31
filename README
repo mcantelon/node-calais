@@ -17,6 +17,16 @@ Usage:
 Example:
 # node example.js
 
+Options:
+
+In addition to using the "set" method, a hash of option settings can be passed
+as the second argument when constructing. For example:
+
+  var calais = new Calais('<YOUR API KEY>', {'cleanResult': false})
+
+Any Calais input parameter can be passed, as well as the 'cleanResult' parameter
+(which can be set to false to show the raw Calais result).
+
 Test:
 # expresso test/calais.test.js
 
