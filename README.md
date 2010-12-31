@@ -30,7 +30,7 @@ as the second argument when constructing. For example:
 Any Calais input parameter can be passed, as well as the 'cleanResult' parameter
 (which can be set to false to show the raw Calais result).
 
-** Test **
+## Test ##
 
 Run tests:
     $ expresso test/calais.test.js
