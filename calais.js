@@ -7,6 +7,7 @@
 */
 
 var fs = require('fs')
+  , path = require('path')
   , Calais = require('./lib/calais').Calais
   , argv = require('optimist').argv
   , iniparser = require('iniparser')
@@ -30,23 +31,39 @@ iniparser.parse(home + '/.calais', function(err, data) {
       ? argv['k']
       : config.api_key
 
-    if (api_key) {
+    if (!api_key) {
 
-      console.log('K:' + api_key)
+      var help = ''
+      help += "Please specify an OpenCalais API key using the -k option.\n"
+      help += "A default key may be specified by setting 'api_key' in an ini\n"
+      help += "file at $HOME/.calais."
+
+      console.log(help)
+      process.exit(1)
     }
-    else {
 
-      console.log('Please specify an OpenCalais API key using the -k option.')
-    }
+    var file = argv['_'][0]
 
-    var contents = fs.readFileSync(argv['_'][0])
+    path.exists(file, function(exists) {
 
-    var calais = new Calais(api_key, {
-      'cleanResult': true
-    })
-    calais.set('content', content)
-    calais.fetch(function(result) {
-      console.log(result)
+      if (exists) {
+
+        var content = fs.readFileSync(file)
+
+        var calais = new Calais(api_key, {
+          'cleanResult': true
+        })
+        calais.set('content', content)
+
+        calais.fetch(function(result) {
+          console.log(result)
+        })
+      }
+      else {
+
+        console.log("Error: file doesn't exist.")
+        process.exit(1)
+      }
     })
   }
   else {
