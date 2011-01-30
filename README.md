@@ -35,6 +35,18 @@ Any standard Calais input parameter can be specified as an option, as well as
 the 'cleanResult' parameter which will return a simplified Javascript object if
 "outputFormat" hasn't been set to something other than the default ('object').
 
+## CLI Tool ##
+
+The library also comes with a CLI tool for sending text files to Calais for
+analysis.
+
+Example:
+
+    calais some_key_file -k my_api_key
+
+If you use the CLI tool regularly, you can specify a default API key by setting
+the `api_key` property in an .ini file at $HOME/.calais.
+
 ## Test ##
 
 Run tests:
