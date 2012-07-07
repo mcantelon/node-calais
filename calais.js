@@ -44,7 +44,7 @@ iniparser.parse(home + '/.calais', function(err, data) {
 
     var file = argv['_'][0]
 
-    path.exists(file, function(exists) {
+    fs.exists(file, function(exists) {
 
       if (exists) {
 
