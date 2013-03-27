@@ -54,4 +54,9 @@ Run tests:
 
 Tested with node.js v0.3.0
 
-(c) 2010 Mike Cantelon, MIT license
+** Contributors **
+
+Mike Cantelon
+Harry Guillermo (github: hguillermo)
+
+(c) 2010-2013 Mike Cantelon, MIT license
