@@ -1,6 +1,6 @@
 {
     "name": "calais",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "Semantically analyze text using the Calais web service.",
     "tags" : ["semantic", "calais"],
     "author" : "Mike Cantelon <mcantelon@gmail.com>",
