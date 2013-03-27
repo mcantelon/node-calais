@@ -68,7 +68,7 @@ iniparser.parse(home + '/.calais', function(err, data) {
   }
   else {
 
-    console.log('Usage: calais <filename>')
+    console.log('Usage: calais -k <API key> <filename>')
     process.exit(1)
  }
 })
