@@ -1,4 +1,4 @@
-var Calais = require('calais').Calais,
+var Calais = require('../lib/calais').Calais,
     assert = require('assert'),
     should = require('should')
 
