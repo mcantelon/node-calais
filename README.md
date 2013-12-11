@@ -56,8 +56,10 @@ Tested with node.js v0.3.0
 
 ## Contributors ##
 
-Mike Cantelon
+Mike Cantelon (github: mcantelon)
 
 Harry Guillermo (github: hguillermo)
+
+Dirk Gorissen (github: dgorissen)
 
 (c) 2010-2013 Mike Cantelon, MIT license
