@@ -1,34 +1,42 @@
 {
-    "name": "calais",
-    "version": "0.1.6",
-    "description": "Semantically analyze text using the Calais web service.",
-    "tags" : ["semantic", "calais"],
-    "author" : "Mike Cantelon <mcantelon@gmail.com>",
-    "contributors" : [],
-    "dependencies" : {
-      "optimist" : ">=0.1.3",
-      "request" : ">=2.25.1",
-      "iniparser" : ">=1.0.1"
-    },
-    "main": "./lib/calais",
-    "directories" : {
-        "lib": "./lib"
-    },
-    "bin" : {
-      "calais" : "./calais.js"
-    },
-    "repository": {
-        "type": "git",
-        "url" : "http://github.com/mcantelon/node-calais"
-    },
-    "engines": {
-      "node": ">= 0.3.0"
-    },
-    "bugs" : {
-        "web" : "http://github.com/mcantelon/node-calais/issues"
-    },
-    "licenses" : [{
-        "type" : "MIT",
-        "url" : "http://github.com/mcantelon/node-calais/blob/master/LICENSE"
-    }]
+  "name": "calais",
+  "version": "0.1.6",
+  "description": "Semantically analyze text using the Calais web service.",
+  "tags": [
+    "semantic",
+    "calais"
+  ],
+  "author": "Mike Cantelon <mcantelon@gmail.com>",
+  "contributors": [],
+  "dependencies": {
+    "optimist": ">=0.1.3",
+    "request": ">=2.25.1",
+    "iniparser": ">=1.0.1"
+  },
+  "main": "./lib/calais",
+  "directories": {
+    "lib": "./lib"
+  },
+  "bin": {
+    "calais": "./calais.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/mcantelon/node-calais"
+  },
+  "engines": {
+    "node": ">= 0.3.0"
+  },
+  "bugs": {
+    "web": "http://github.com/mcantelon/node-calais/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://github.com/mcantelon/node-calais/blob/master/LICENSE"
+    }
+  ],
+  "devDependencies": {
+    "jshint": "^2.5.1"
+  }
 }
