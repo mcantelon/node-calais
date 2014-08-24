@@ -55,8 +55,12 @@ iniparser.parse(home + '/.calais', function (err, data) {
         })
         calais.set('content', content)
 
-        calais.fetch(function (result) {
-          console.log(result)
+        calais.fetch(function (error, result) {
+          if (error) {
+            console.log('Error attempting to fetch data.');
+          } else {
+            console.log(result)
+          }
         })
       }
       else {

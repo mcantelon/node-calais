@@ -1,6 +1,6 @@
 {
   "name": "calais",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Semantically analyze text using the Calais web service. Original project http://github.com/mcantelon/node-calais",
   "tags": [
     "semantic",
