@@ -61,8 +61,10 @@ Tested with node.js v0.3.0
 
 Mike Cantelon (github: mcantelon)
 
-Harry Guillermo (github: hguillermo)
+D. Charbonnier (github: dcharbonnier)
 
 Dirk Gorissen (github: dgorissen)
 
-(c) 2010-2013 Mike Cantelon, MIT license
+Harry Guillermo (github: hguillermo)
+
+(c) 2010-2014 Mike Cantelon, MIT license
