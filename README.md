@@ -55,7 +55,7 @@ the `api_key` property in an .ini file at $HOME/.calais.
 Run tests:
     $ expresso test/calais.test.js
 
-Tested with node.js v0.3.0
+Tested with node.js v0.11.13
 
 ## Contributors ##
 
