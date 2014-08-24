@@ -1,6 +1,3 @@
-All credits to https://github.com/mcantelon/node-calais, Mike Cantelon
-
-
 # node-calais #
 
 node-calais allows semantic analysis of text using the Calais web service.
