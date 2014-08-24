@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 
 /*!
-* calais
-* Copyright(c) 2011 Mike Cantelon
-* MIT Licensed
-*/
+ * calais
+ * Copyright(c) 2011 Mike Cantelon
+ * MIT Licensed
+ */
 
 var fs = require('fs')
   , path = require('path')
@@ -20,7 +20,7 @@ if (home === undefined) {
   process.exit(1)
 }
 
-iniparser.parse(home + '/.calais', function(err, data) {
+iniparser.parse(home + '/.calais', function (err, data) {
 
   var config = (err) ? false : data
 
@@ -44,7 +44,7 @@ iniparser.parse(home + '/.calais', function(err, data) {
 
     var file = argv['_'][0]
 
-    fs.exists(file, function(exists) {
+    fs.exists(file, function (exists) {
 
       if (exists) {
 
@@ -55,7 +55,7 @@ iniparser.parse(home + '/.calais', function(err, data) {
         })
         calais.set('content', content)
 
-        calais.fetch(function(result) {
+        calais.fetch(function (result) {
           console.log(result)
         })
       }
@@ -70,5 +70,5 @@ iniparser.parse(home + '/.calais', function(err, data) {
 
     console.log('Usage: calais -k <API key> <filename>')
     process.exit(1)
- }
+  }
 })

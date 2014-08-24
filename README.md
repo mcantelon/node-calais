@@ -1,3 +1,6 @@
+All credits to https://github.com/mcantelon/node-calais, Mike Cantelon
+
+
 # node-calais #
 
 node-calais allows semantic analysis of text using the Calais web service.
@@ -5,7 +8,7 @@ node-calais allows semantic analysis of text using the Calais web service.
 ## Install ##
 
 Install using npm:
-    $ npm install calais
+    $ npm install opencalais
 
 ## Usage ##
 
