@@ -8,7 +8,7 @@ node-calais allows semantic analysis of text using the Calais web service.
 ## Install ##
 
 Install using npm:
-    $ npm install opencalais
+    $ npm install calais
 
 ## Usage ##
 

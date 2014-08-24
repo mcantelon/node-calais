@@ -1,5 +1,5 @@
 {
-  "name": "opencalais",
+  "name": "calais",
   "version": "0.2.0",
   "description": "Semantically analyze text using the Calais web service. Original project http://github.com/mcantelon/node-calais",
   "tags": [
@@ -21,18 +21,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/dcharbonnier/node-opencalais"
+    "url": "https://github.com/mcantelon/node-calais"
   },
   "engines": {
     "node": ">= 0.3.0"
   },
   "bugs": {
-    "web": "https://github.com/dcharbonnier/node-opencalais/issues"
+    "web": "https://github.com/mcantelon/node-calais/issues"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/dcharbonnier/node-opencalais/blob/master/LICENSE"
+      "url": "https://github.com/mcantelon/node-calais/blob/master/LICENSE"
     }
   ],
   "devDependencies": {
